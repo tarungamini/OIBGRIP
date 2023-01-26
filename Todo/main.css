@@ -1,0 +1,51 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_638884198_366705.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#addedtasks{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	/* width:90%; */
+	background-color: rgb(6, 139, 227);
+}
+.tasks{
+	/* width:100%; */
+	display: grid;
+	word-break: keep-all;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	border:solid 1px black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-items: center;
+	/* padding-left: 20px;
+	padding-right: 20px; */
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+#btn{
+	background-color:#778899;
+	border: #3fd557;
+}
+button{
+	border-radius: 25px;
+	width:130px; 
+	height:40px;
+}
+form{
+	font-family: Italic;
+   
+
+}
+input{
+	height: 25px;
+}
+#blank{
+	 color: red;
+}
